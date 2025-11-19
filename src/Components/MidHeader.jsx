@@ -33,11 +33,12 @@ const MidHeader = () => {
                </div>
             </div>
                </div>
+               {/* ================>>>>>>>>>>>> Favourite Button <<<<<<<<<<<<<================== */}
          <div className='flex gap-4'>
 <div className='h-10 w-10 rounded-full border border-gray-300 items-center justify-center flex '>
     <CiHeart className='text-xl text-gray-500'/>
 </div>
-
+                 {/*================>>>>>> Cart Button <<<<<<<<<<<============== */}
     <div className='h-10 w-10 rounded-full border border-gray-300 items-center justify-center flex '>
     <IoCartOutline className='text-xl text-gray-500'/>
 </div>
