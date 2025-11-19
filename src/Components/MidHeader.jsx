@@ -48,7 +48,7 @@ const MidHeader = () => {
     <IoCartOutline className='text-xl text-gray-500'/>
 </div>
   </div>
-<div className=' text-white px-6 py-3 rounded-full bg-[#39B8AD]'>
+<div className=' text-white px-8 py-3 rounded-full bg-[#39B8AD]'>
     Start Free Trail
 </div>
          </div>
