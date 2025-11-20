@@ -15,12 +15,34 @@ const EndHeader = () => {
 
 
 </div>
-<div className='flex  gap-12 text-gray-700 font-bold'>
-    <Link className='hover hover:text-[#39B8AD]' href="/">HOME</Link>
-<Link className='hover hover:text-[#39B8AD]' href="/shop">SHOP</Link>
-<Link className='hover hover:text-[#39B8AD]' href="/page">PAGES</Link>
-<Link className='hover hover:text-[#39B8AD]' href="/blog">BLOG</Link>
-<Link className='hover hover:text-[#39B8AD]' href="/contact">CONTACT</Link>
+<div className='flex  gap-12 text-gray-700 font-bold '>
+    <Link className='hover hover:text-[#72d8d0]' href="/home">
+   <select name="" id="">
+    <option value="/home">HOME</option>
+    
+   </select>
+    </Link>
+<Link className='hover hover:text-[#39B8AD]' href="/shop">
+<select name="" id="">
+    <option value="">SHOP</option>
+</select>
+
+</Link>
+<Link className='hover hover:text-[#39B8AD]' href="/page">
+<select name="" id="">
+    <option value="">PAGES</option>
+</select>
+</Link>
+<Link className='hover hover:text-[#39B8AD]' href="/blog">
+<select name="" id="">
+    <option value="">BLOG</option>
+</select>
+</Link>
+<Link className='hover hover:text-[#39B8AD]' href="/contact">
+<select name="" id="">
+    <option value="">CONTACT</option>
+</select>
+</Link>
             </div> 
 </div>
         </div>
