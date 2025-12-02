@@ -8,7 +8,7 @@ const EndHeader = () => {
            <div className='flex gap-20  items-center container mx-auto px-20 '>
 <div className='gap-8 flex'>
     <div className='flex gap-2 items-center font-bold text-gray-700'>
-    <BiCategory /> 
+    <BiCategory className='text-[#39B8AD]'/> 
 <p>CATEGORYS  </p> 
 </div>
 <p className='h-15 w-0.5 bg-gray-300 '></p>
@@ -39,9 +39,8 @@ const EndHeader = () => {
 </select>
 </Link>
 <Link className='hover hover:text-[#39B8AD]' href="/contact">
-<select name="" id="">
-    <option value="">CONTACT</option>
-</select>
+CONTACT
+
 </Link>
             </div> 
 </div>
